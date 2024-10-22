@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sarala:wght@400;700&display=swap');
 
 /* Set custom variables here */
+:root {
+  --primary: #2e483a;
+  --light: #f6f3ed;
 
+  --bs-primary: #2e483a;
+  --bs-primary-rgb: 46, 72, 58;
+
+  --bs-light: #f6f3ed;
+  --bs-light-rgb: 246, 243, 237;
+
+  --body-bg: #F6F3ED;
+}
 
 
 
@@ -29,6 +40,11 @@ h1, h2, h3 {
 
 #hero .d-flex {
   height: 800px;
+}
+
+.btn {
+  background-color: #2e483a;
+  border-color: #2e483a;
 }
 
 #cta {
