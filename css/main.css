@@ -12,6 +12,9 @@
   --bs-light-rgb: 246, 243, 237;
 
   --body-bg: #F6F3ED;
+
+  --bs-emphasis-color: #fff;
+  --bs-emphasis-color-rgb: 255, 255, 255;
 }
 
 
@@ -45,6 +48,11 @@ h1, h2, h3 {
 .btn {
   background-color: #2e483a;
   border-color: #2e483a;
+  padding: 10px 15px;
+}
+
+.accordion {
+  background-color: #f6f3ed;
 }
 
 #cta {
@@ -52,6 +60,7 @@ h1, h2, h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  color: #fff;
 }
 
 #cta .d-flex {
