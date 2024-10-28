@@ -51,6 +51,10 @@ h1, h2, h3 {
   padding: 10px 15px;
 }
 
+.blockquote-footer {
+  color: #fff;
+}
+
 .accordion {
   background-color: #f6f3ed;
 }
